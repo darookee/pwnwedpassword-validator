@@ -1,0 +1,21 @@
+{
+    "name": "darookee/pwnwedpassword-validator",
+    "description": "PwnedPassword Validator Constraint for Symfony",
+    "keywords": ["symfony", "validator", "password"],
+    "type": "library",
+    "require": {
+        "ext-curl": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nils Uliczka",
+            "email": "nils.uliczka@darookee.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "R\\": "src/"
+        }
+    }
+}
